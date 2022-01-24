@@ -1,0 +1,63 @@
+{
+  "name": "CreateRecordWithRelEntField_24Jan2022_1058",
+  "description": "Creating an entity record with relation field mapping in Data services",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DataService.Activities": "[21.10.0]",
+    "UiPath.System.Activities": "[21.10.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "MyTenant",
+      "namespace": "CreateRecordWithRelEntField_24Jan2022_1058",
+      "uniqueReference": "JqGQ9HuHxpI9arRN3A4heeLMfIO1bbD/SsJlX85EZZY="
+    }
+  ],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "b8e2932f-a77d-4a1e-a7b0-892d756ee66a",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
